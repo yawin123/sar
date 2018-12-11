@@ -1,0 +1,29 @@
+/* Estilo exclusivo del ACP*/
+#config_field {
+  height: 300px;
+}
+
+#tos_field {
+  height: 300px;
+}
+
+#navbaracp {
+    background-color: #75a7db;
+    z-index: 999;
+    top:50px;
+}
+
+.boton:hover {
+  color: #75a7db;
+}
+
+#rangeEditor .modal{
+    top: 100px;
+}
+
+.modal-dialog{
+    overflow-y: initial !important
+}
+.modal-body{
+    overflow-y: auto;
+}

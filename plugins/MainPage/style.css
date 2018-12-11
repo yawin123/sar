@@ -1,0 +1,108 @@
+
+body {
+    text-align: justify;
+}
+
+footer {
+    margin-bottom: 20px;
+}
+
+.container-double-fluid {
+    padding: 120px 50px;
+}
+
+.container-fluid {
+    padding: 60px 50px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: rgb(51, 122, 183);
+    z-index: 1000;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: rgb(51, 122, 183) !important;
+    background-color: #fff !important;
+    cursor: pointer;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+#chevron {
+    margin-bottom: -50px;
+}
+
+#chevron .glyphicon {
+    font-size: 20px;
+    color: #f4511e;
+}
+
+.img-radius {
+    border-radius: 50%;
+}
+
+#header img {
+    width: 150px;
+}
+
+pre {
+    height: auto;
+    max-height: 200px;
+    overflow: auto;
+    background-color: #eeeeee;
+    word-break: normal !important;
+    word-wrap: normal !important;
+    white-space: pre !important;
+}
+
+.boton, .button, .debug-button {
+    cursor: pointer;
+}
+
+.panel-default > .panel-heading {
+    font-weight: bold;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #002c67;
+}
+
+.timestamp {
+    float: right;
+    padding: 2px;
+    border-radius: 0px 0px 0px 5px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+forum-content {
+    padding: 4px;
+}
+
+#btn_response.disabled, #btn_cancel.disabled {
+    cursor: default;
+}
+
+#preview_post_row, #search-result {
+    display: none;
+}
+
+mark, .mark {
+    color: #000;
+    font-weight: bold;
+    background: #ff0; 
+    padding: 0;
+}

@@ -1,0 +1,11 @@
+.modal{
+    z-index: 10000;
+}
+
+.modal-dialog{
+    overflow-y: initial !important
+}
+.modal-body{
+    height: 350px;
+    overflow-y: auto;
+}

@@ -1,0 +1,17 @@
+ .avatar-icon {
+   max-width: 25px;
+ }
+
+.avatar-small {
+  min-width: 50px;
+  max-width: 150px;
+}
+
+.avatar-big {
+  min-width: 100px;
+  max-width: 230px;
+}
+
+.avatar-fill {
+  width: 100%;
+}

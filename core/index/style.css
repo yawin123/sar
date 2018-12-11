@@ -1,0 +1,10 @@
+#debug-panel {
+  z-index: 9999;
+  width: 90%;
+  top: 5px;
+  margin: 60px 50px;
+}
+
+.debug-button:hover {
+  color: #75a7db;
+}
